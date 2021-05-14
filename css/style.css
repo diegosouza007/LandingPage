@@ -52,14 +52,25 @@ section {
 input,
 select {
     box-sizing: border-box;
-    margin-bottom: 2.7px;
+    border-style: none;
+    margin-bottom: 5px;
     padding: 5px;
     height: 40px;
     width: 100%;
 }
 
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
 input[type="submit"] {
-    margin-top: 5px;
+    margin-top: 10px;
     background-color: #48c5ce;
     border-style: none;
     font-weight: bold;
@@ -68,19 +79,37 @@ input[type="submit"] {
     height: 40px;
 }
 
+input[type="submit"]:hover {
+    background-color: #202121;
+    color: white;
+}
+
 
 /* Footer configurations */
 
 footer {
     background-color: #202121;
     color: white;
+    padding: 40px;
+    text-align: center;
 }
 
 img {
-    width: 200px;
+    width: 160px;
+}
+
+.footer_content {
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+    padding-left: 40px;
 }
 
 .footer_content h3,
-.footer_content a {
-    display: inline-block;
+.footer_content p {
+    margin-bottom: 20px;
+}
+
+.footer_title {
+    font-size: 24px;
 }
