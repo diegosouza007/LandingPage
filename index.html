@@ -6,28 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/ico.png">
     <title>Workshop</title>
 </head>
 
 <body>
     <div id="container">
+
         <header>
             <h1 class="title">PARTICIPE DO WORKSHOP QUE VAI MUDAR O SEU NEGÓCIO</h1>
         </header>
-        <section class="contact">
-            <h2>GARANTA O SEU LUGAR NO WORKSHOP DO MAIOR ESPECIALISTA EM MARKETING DA ATUALIDADE</h2>
-            <p>Neste evento, você vai aprender todos os segredos que vão te fazer ser um empreendedor de sucesso sem precisar contar com a sorte</p>
-            <form action="/index.html">
-                <input id="name" type="text" placeholder="Nome e Sobrenome">
-                <input id="email" type="email" name="email" placeholder="E-mail">
-                <input type="submit" value="INSCREVA-SE">
-            </form>
+
+        <section>
+            <div class="form_container">
+                <h2>GARANTA O SEU LUGAR NO WORKSHOP DO MAIOR ESPECIALISTA EM MARKETING DA ATUALIDADE</h2>
+                <p>Neste evento, você vai aprender todos os segredos que vão te fazer ser um empreendedor de sucesso sem precisar contar com a sorte</p>
+                <form action="/index.html">
+                    <input id="name" type="text" placeholder="Nome e Sobrenome">
+                    <input id="email" type="email" name="email" placeholder="E-mail">
+                    <select name="place">
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="es">Espírito Santo</option>
+                    </select>
+                    <input type="submit" value="INSCREVA-SE">
+                </form>
+            </div>
         </section>
+
         <footer>
-            <img src="#" alt="palestrante">
-            <h3>O Palestrante</h3>
-            <a>Carlos Fontana é conhecido por dar palestras que abalam a estrutura do marketing tradicional. Prepare-se para sair do evento com uma nova visão do que é possível ser feito para o seu negócio decolar</a>
-            <a>Formado em Marketing pela Universidade XYZ e fundador da MarkUP, a empresa vencedora dos ultimos 5 Prêmios MarketingBR</a>
+            <div class="footer_content">
+                <img src="./images/face.jpg" alt="palestrante">
+                <h3>O Palestrante</h3>
+                <a>Carlos Fontana é conhecido por dar palestras que abalam a estrutura do marketing tradicional. Prepare-se para sair do evento com uma nova visão do que é possível ser feito para o seu negócio decolar</a>
+                <a>Formado em Marketing pela Universidade XYZ e fundador da MarkUP, a empresa vencedora dos ultimos 5 Prêmios MarketingBR</a>
+            </div>
         </footer>
     </div>
 </body>
