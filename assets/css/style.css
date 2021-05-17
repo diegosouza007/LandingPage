@@ -5,20 +5,26 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #0B0C10;
+    background-color: #17252A;
     font-size: 16px;
 }
 
+
+/* Page header area configuration */
+
 header {
-    background-color: #66FCF1;
+    background-color: #3AAFA9;
     color: #0B0C10;
-    padding: 10px;
+    padding: 5px;
 }
 
 h1 {
     font-size: 24px;
     text-align: center;
 }
+
+
+/* About the speaker area content */
 
 .container {
     max-width: 1000px;
@@ -72,10 +78,11 @@ input[type="submit"] {
 }
 
 
-/*  */
+/* More details about the speaker */
 
 .container_speaker {
-    background-color: #45A29E;
+    background-color: #3AAFA9;
+    color: #DEF2F1;
     padding: 30px;
     overflow: hidden;
     text-align: center;
@@ -100,7 +107,40 @@ input[type="submit"] {
 
 /* Footer configurations */
 
-.container_about {
-    background-color: turquoise;
-    height: 200px;
+.author_more {
+    box-sizing: border-box;
+    background-color: #2B7A78;
+    background-size: cover;
+    color: #DEF2F1;
+    overflow: hidden;
+    width: 100%;
+    padding: 30px;
+    padding-left: 130px;
+    margin-bottom: 50px;
+}
+
+.author_more img {
+    border: 10px solid;
+    /* padding-top: 50px; */
+    width: 300px;
+    margin-top: 44px;
+}
+
+.author_more--content {
+    padding-top: 50px;
+    width: 400px;
+    float: left;
+}
+
+.author_more--content h2 {
+    text-align: center;
+}
+
+.author_more--content h2,
+.author_more--content p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-position: inside;
 }
