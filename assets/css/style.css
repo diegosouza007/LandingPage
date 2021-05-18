@@ -31,21 +31,21 @@ h1 {
     margin: auto;
 }
 
-.container_submit {
+.container__header {
     box-sizing: border-box;
     background-image: url(../images/motivationalspeaker.jpeg);
     background-repeat: no-repeat;
     overflow: hidden;
 }
 
-.container_submit h2,
-.container_submit p {
+.container__header h2,
+.container__header p {
     font-size: 16px;
     margin-bottom: 5px;
     padding: 12px;
 }
 
-.container_submit--block {
+.container__header--submit {
     background-color: #1F2833BB;
     color: #C5C6C7;
     max-width: 30%;
