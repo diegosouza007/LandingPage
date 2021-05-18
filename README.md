@@ -1,10 +1,12 @@
 # Workshop - Landing Page
 
-Neste projeto irei desenvolver uma página de captura de leads referente a venda de algum infoproduto.
+Neste projeto criei uma simples página de captura de leads para a venda de algum infoproduto.
 
-Dessa forma, o cliente poderá obter uma lista de leads para poder utilizar para divulgar os seus produtos e ofertas.
+O cliente poderá obter uma lista de leads para utilizar para divulgar os seus produtos e ofertas de seu negócio.
 
 Estes contatos que forem obtidos através dessa página poderão ser implementados em alguma ferramenta de e-mail marketing, como por exemplo usando a plataforma <a href="https://mailchimp.com/">MailChimp</a>.
+
+O site foi configurado para que se adapte da melhor forma possível em diversos tamanhos de telas.
 
 # Tecnologias
 

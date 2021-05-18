@@ -23,13 +23,13 @@ h1 {
     text-align: center;
 }
 
-
-/* About the speaker area content */
-
 .container {
     max-width: 1000px;
     margin: auto;
 }
+
+
+/* First section webpage - Background div */
 
 .container__header {
     box-sizing: border-box;
@@ -45,6 +45,9 @@ h1 {
     padding: 12px;
 }
 
+
+/* First section webpage - Form div */
+
 .container__header--submit {
     background-color: #1F2833BB;
     color: #C5C6C7;
@@ -56,12 +59,12 @@ h1 {
 
 input,
 select {
+    box-sizing: border-box;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    box-sizing: border-box;
     border-style: none;
-    margin: 3px;
+    margin-bottom: 3px;
     width: 100%;
     height: 40px;
     padding: 10px;
@@ -74,13 +77,23 @@ select {
 }
 
 input[type="submit"] {
+    border: 2px solid #17252A;
+    color: black;
+    border-radius: 5px;
     margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    color: #DEF2F1;
+    border: 3px solid #C5C6C7;
+    background-color: #3AAFA9;
 }
 
 
-/* More details about the speaker */
+/* Second section webpage - Speaker informations */
 
-.container_speaker {
+.container__speaker {
     background-color: #3AAFA9;
     color: #DEF2F1;
     padding: 30px;
@@ -88,26 +101,27 @@ input[type="submit"] {
     text-align: center;
 }
 
-.container_speaker p,
-.container_speaker h2 {
+.container__speaker p,
+.container__speaker h2 {
     display: inline-block;
     margin-bottom: 10px;
     text-align: left;
+    padding-left: 20px;
 }
 
-.container_speaker img {
+.container__speaker img {
     width: 300px;
 }
 
-.container_speaker--content {
+.container__speaker--content {
     display: inline-block;
     width: 400px;
 }
 
 
-/* Footer configurations */
+/* Third section webpage - Other details about the speaker */
 
-.author_more {
+.author__more {
     box-sizing: border-box;
     background-color: #2B7A78;
     background-size: cover;
@@ -119,14 +133,15 @@ input[type="submit"] {
     margin-bottom: 50px;
 }
 
-.author_more img {
+.author__more img {
     border: 10px solid;
     /* padding-top: 50px; */
     width: 300px;
     margin-top: 44px;
+    background-color: #DEF2F1;
 }
 
-.author_more--content {
+.author__more--content {
     padding-top: 50px;
     width: 400px;
     float: left;
@@ -144,3 +159,6 @@ input[type="submit"] {
 ul {
     list-style-position: inside;
 }
+
+
+/* Responsive configurations */
