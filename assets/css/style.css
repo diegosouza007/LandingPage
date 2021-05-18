@@ -34,7 +34,7 @@ h1 {
 .container__header {
     box-sizing: border-box;
     background-color: #3AAFA9;
-    background-image: url(../images/motivationalspeaker.jpeg);
+    background-image: url(../img/motivationalspeaker.jpeg);
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -72,7 +72,7 @@ select {
 }
 
 select {
-    background-image: url(../images/arrow.jpg);
+    background-image: url(../img/arrow.jpg);
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
 }
@@ -168,8 +168,6 @@ ul {
     .container__header {
         background-size: cover;
     }
-    .container__header h2,
-    .container__header p {}
     .container__header--submit {
         float: none;
         margin: auto;
@@ -210,6 +208,46 @@ ul {
         font-size: 16px;
     }
     .container__header--submit {
+        max-width: 55vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 16px;
+    }
+    .container__header--submit {
         max-width: 65vw;
+    }
+    .container__speaker--content {
+        margin: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .container__speaker h2 {
+        margin-top: 10px;
+    }
+    .container__speaker p,
+    .container__speaker h2 {
+        display: inline-block;
+        margin-bottom: 10px;
+        text-align: left;
+        padding: 0;
+    }
+    .author__more img {
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .author__more {
+        margin: 0;
+        padding: 30px;
+    }
+    .author__more--content {
+        box-sizing: border-box;
+        margin: auto;
+        width: 100%;
+        text-align: left;
+        /* padding: 30px; */
     }
 }
