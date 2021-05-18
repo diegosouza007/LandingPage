@@ -33,6 +33,7 @@ h1 {
 
 .container__header {
     box-sizing: border-box;
+    background-color: #3AAFA9;
     background-image: url(../images/motivationalspeaker.jpeg);
     background-repeat: no-repeat;
     overflow: hidden;
@@ -162,3 +163,53 @@ ul {
 
 
 /* Responsive configurations */
+
+@media screen and (max-width: 836px) {
+    .container__header {
+        background-size: cover;
+    }
+    .container__header h2,
+    .container__header p {}
+    .container__header--submit {
+        float: none;
+        margin: auto;
+        max-width: 45vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    h1 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 606px) {
+    body {
+        font-size: 14px;
+    }
+    .container__header h2,
+    .container__header p {
+        font-size: 14px;
+        margin-bottom: 5px;
+        padding: 12px;
+    }
+    .container__header--submit {
+        position: relative;
+        float: none;
+        margin: auto;
+        max-width: 50vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    h1 {
+        font-size: 16px;
+    }
+    .container__header--submit {
+        max-width: 65vw;
+    }
+}
