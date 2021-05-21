@@ -10,7 +10,8 @@ O site foi configurado para que se adapte da melhor forma possível em diversos 
 
 # Tecnologias
 
-HTML e CSS
+<img src="./assets/img/icons-html-5.svg">
+<img src="./assets/img/icons-css3.svg">
 
 # Preview
 
