@@ -15,13 +15,13 @@ O site foi configurado para que se adapte da melhor forma possível em diversos 
   <img src="./assets/img/icons-css3.svg" alt="CSS">
 </p>
 
-# Preview
+# Project Preview
 
-### Desktop
+#### Desktop
 
 <img src="./assets/img/preview-desktop.webp" width="600px">
 
-### Smartphone
+#### Smartphone
 
 <img src="./assets/img/preview-phone.webp" width="250px">
 
