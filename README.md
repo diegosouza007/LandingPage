@@ -10,9 +10,11 @@ O site foi configurado para que se adapte da melhor forma possível em diversos 
 
 # Tecnologias
 
-<img src="./assets/img/icons-html-5.svg">
-<img src="./assets/img/icons-css3.svg">
+<p float="left">
+  <img src="./assets/img/icons-html-5.svg" alt="HTML">
+  <img src="./assets/img/icons-css3.svg" alt="CSS">
+</p>
 
 # Preview
 
-<em>Em desenvolvimento...</em>
+Demo: <a href="https://diegosouza007.github.io/LandingPage/">Landing Page</a>
