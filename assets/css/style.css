@@ -285,4 +285,7 @@ li:first-child {
         width: 100%;
         text-align: left;
     }
+    .author__more--content p:last-child {
+        margin-bottom: 25px;
+    }
 }
