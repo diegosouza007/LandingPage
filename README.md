@@ -17,4 +17,12 @@ O site foi configurado para que se adapte da melhor forma possível em diversos 
 
 # Preview
 
-Demo: <a href="https://diegosouza007.github.io/LandingPage/">Landing Page</a>
+## Desktop
+
+<img src="./assets/img/preview-desktop.webp" width="800px">
+
+## Smartphone
+
+<img src="./assets/img/preview-phone.webp" width="800px">
+
+Live demo: <a href="https://diegosouza007.github.io/LandingPage/">Landing Page</a>
