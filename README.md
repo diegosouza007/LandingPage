@@ -4,7 +4,7 @@ Neste projeto criei uma simples página de captura de leads para a venda de algu
 
 O cliente poderá obter uma lista de leads para utilizar para divulgar os seus produtos e ofertas de seu negócio.
 
-Estes contatos que forem obtidos através dessa página poderão ser implementados em alguma ferramenta de e-mail marketing, como por exemplo usando a plataforma <a href="https://mailchimp.com/">MailChimp</a>.
+Estes contatos que forem obtidos através dessa página poderão ser incorporados em alguma ferramenta de e-mail marketing, como por exemplo usando a plataforma <a href="https://mailchimp.com/">MailChimp</a>.
 
 O site foi configurado para que se adapte da melhor forma possível em diversos tamanhos de telas.
 
@@ -15,7 +15,7 @@ O site foi configurado para que se adapte da melhor forma possível em diversos 
   <img src="./assets/img/icons-css3.svg" alt="CSS">
 </p>
 
-# Project Preview
+# Project preview
 
 #### Desktop
 
